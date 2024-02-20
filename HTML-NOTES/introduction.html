@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to HTML</title>
+    <style>
+        @keyframes slideIn {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .box {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .box-title {
+            font-weight: bold;
+            color: #333;
+            margin-top: 0;
+        }
+        .principles-list,
+        .objectives-list {
+            list-style-type: square;
+            color: #666;
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+        footer {
+            background-color: #080031;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            animation: slideIn 0.5s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Introduction to HTML</h1>
+        <p>HTML, or HyperText Markup Language, was created by Sir Tim Berners-Lee, a British computer scientist, in the early 1990s. Berners-Lee developed HTML as a foundational technology for the World Wide Web (WWW), laying the groundwork for the exchange and sharing of information across the internet.</p>
+        
+        <div class="box">
+            <h2 class="box-title">Key Principles of HTML:</h2>
+            <ul class="principles-list">
+                <li><strong>Simplicity:</strong> HTML is designed to be simple and easy to understand, allowing developers to create web pages using straightforward markup tags.</li>
+                <li><strong>Universality:</strong> HTML is a universal standard adopted by web browsers, ensuring compatibility and consistent rendering of web pages across different platforms and devices.</li>
+                <li><strong>Flexibility:</strong> HTML provides flexibility in structuring and presenting content, allowing developers to adapt to various design requirements and user preferences.</li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <h2 class="box-title">Principal Objectives of HTML:</h2>
+            <ul class="objectives-list">
+                <li><strong>Structured Content:</strong> HTML's primary objective is to define the structure and layout of web content, organizing text, images, and multimedia elements into logical sections and elements.</li>
+                <li><strong>Interactivity:</strong> HTML enables the creation of interactive web pages through the integration of hyperlinks, forms, and multimedia elements, enhancing user engagement and interaction.</li>
+                <li><strong>Accessibility:</strong> HTML promotes accessibility by supporting semantic elements and attributes that improve the usability of web content for individuals with disabilities and assistive technologies.</li>
+                <li><strong>Compatibility:</strong> HTML aims to ensure cross-browser and cross-platform compatibility, enabling web pages to be accessed and displayed consistently across a wide range of devices and browsers.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Footer developed by Waseem</p>
+    </footer>
+</body>
+</html>
